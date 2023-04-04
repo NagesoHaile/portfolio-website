@@ -1,6 +1,6 @@
 /* *********************************** */
 :root {
-  --primary-orange: "#f9a600";
+  --primary-orange: #C58940;
 }
 nav a.nav-link {
   font-weight: 500;
@@ -15,4 +15,60 @@ nav ul li {
 .navbar-nav > li > a.active, .navbar-nav >li > a.active:focus {
    border-top: 0.1875 solid var(--primary-orange);
 }
+.navbar-nav li  a.active {
+  border-top: 0.1875 solid var(--primary-orange);
+}
 
+nav ul li a {
+  border-top: 0.1875 solid var(--primary-orange);
+}
+
+/* ************* HEADER ***************** */
+
+.header {
+  position: relative;
+  height: 80vh;
+  background-color: black;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center ;
+}
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+.typed-text {
+  color: white;
+  font-size: 2rem;
+}
+
+.photo {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    border: 0.3rem solid var(--primary-orange);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;  
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
