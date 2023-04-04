@@ -10,7 +10,7 @@ const About = () => {
               <div className="card-body text-center">
                 <h3 className="card-title mb-0">About Me</h3>
                 <div className="card-text text-muted mb-3">
-                  Full Stack Developer
+                  Software Developer
                 </div>
                 <div className="d-flex justify-content-center">
                   <a href="#" className="btn btn-primary btn-sm me-2"><i className="bi bi-linkedin"></i></a>
@@ -33,7 +33,7 @@ const About = () => {
                 </p>
                 <p className="lead">
                 In my career as a full stack developer, I have worked on a wide range of projects spanning various industries. I have experience in developing custom solutions that meet the unique needs of my clients. With a focus on clean code and efficient performance, I am committed to delivering reliable and scalable software that exceeds expectations.
-                
+
                 Thank you for taking the time to learn more about me. I am excited to connect with you and discuss how I can help bring your next project to life.
                 </p>
               </div>
