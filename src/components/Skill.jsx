@@ -17,14 +17,14 @@ const Skill = () => {
             <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '80%'}}>80%   HTML/CSS</div>
+                        <div class="progress-bar bg-success" style={{width: '80%'}}>80%   HTML/CSS</div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                         <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '55%'}}>55%   Javascript</div>
+                        <div class="progress-bar bg-success" style={{width: '55%'}}>55%   Javascript</div>
                         </div>
                     </div>
                 </div>
@@ -32,49 +32,49 @@ const Skill = () => {
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '50%'}}>50%   Python</div>
+                        <div class="progress-bar bg-success" style={{width: '50%'}}>50%   Python</div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '60%'}}>60%   Java</div>
+                        <div class="progress-bar bg-success" style={{width: '60%'}}>60%   Java</div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar"   aria-label="Example with label" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '30%'}}>30%  C++</div>
+                        <div class="progress-bar bg-success" style={{width: '30%'}}>30%  C++</div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar"   aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '30%'}}>70%  Reactjs</div>
+                        <div class="progress-bar bg-success" style={{width: '70%'}}>70%  Reactjs</div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar"   aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '30%'}}>70% React Native</div>
+                        <div class="progress-bar bg-success" style={{width: '70%'}}>70% React Native</div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar"   aria-label="Example with label" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '30%'}}>45%  Flutter</div>
+                        <div class="progress-bar bg-success" style={{width: '45%'}}>45%  Flutter</div>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <div className="skill-item">
                     <div class="progress" role="progressbar"   aria-label="Example with label" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: '60%'}}>60% Django</div>
+                        <div class="progress-bar bg-success" style={{width: '60%'}}>60% Django</div>
                         </div>
                     </div>
                 </div>

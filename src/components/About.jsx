@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="bg-light py-5" id="about">
+    <section className="bg-dark py-5" id="about">
       <div className="container">
-        <div className="row">
+        <div className="row bg-dark">
           <div className="col-md-12">
-            <div className="card border-0 rounded-3 shadow-sm">
+            <div className="card border-0 rounded-3 shadow-sm bg-dark text-light">
               <div className="card-body text-center">
                 <h3 className="card-title mb-0">About Me</h3>
                 <div className="card-text text-muted mb-3">
@@ -22,10 +22,10 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-12">
-            <div className="card border-0 rounded-3 shadow-sm h-100">
+            <div className="card border-0 rounded-3 shadow-sm text-light bg-dark h-100">
               <div className="card-body">
                 <p className="lead">
-                Welcome to my portfolio website! I am a passionate full stack developer with expertise in both web and mobile app development. With a degree in computer science, I have a strong foundation in programming and a natural inclination towards technology.
+                Welcome to my portfolio website! My name is <a>Nagesso Haile</a>. I am a passionate full stack developer with expertise in both web and mobile app development. With a degree in computer science, I have a strong foundation in programming and a natural inclination towards technology.
                 My love for technology is what drives me to constantly learn and adapt to new developments in the field. As a fast learner, I am always eager to take on new challenges and explore new ways to solve problems. This is what keeps me motivated and engaged in my work, and allows me to deliver high-quality solutions that meet my clients' needs.
                 </p>
                 <p className="lead">
@@ -37,8 +37,8 @@ const About = () => {
                 Thank you for taking the time to learn more about me. I am excited to connect with you and discuss how I can help bring your next project to life.
                 </p>
               </div>
-              <div className="card-footer bg-light border-top-0">
-                <a href="#" className="btn btn-primary">Contact Me</a>
+              <div className="card-footer bg-dark  border-top-0 justify-content-center">
+                <a href="#" className="btn btn-outline-success">Contact Me</a>
               </div>
             </div>
           </div>

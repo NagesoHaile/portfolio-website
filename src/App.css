@@ -1,6 +1,7 @@
 /* *********************************** */
 :root {
   --primary-orange: #C58940;
+  --success : #5cb85c;
 }
 nav a.nav-link {
   font-weight: 500;
@@ -13,14 +14,14 @@ nav ul li {
 
 
 .navbar-nav > li > a.active, .navbar-nav >li > a.active:focus {
-   border-top: 0.1875 solid var(--primary-orange);
+   border-top: 0.1875 solid var(--success);
 }
 .navbar-nav li  a.active {
-  border-top: 0.1875 solid var(--primary-orange);
+  border-top: 0.1875 solid var(--success);
 }
 
-nav ul li a {
-  border-top: 0.1875 solid var(--primary-orange);
+nav ul li a:hover {
+  border-top: 0.1875 solid var(--success);
 }
 
 /* ************* HEADER ***************** */
@@ -44,12 +45,12 @@ nav ul li a {
   text-align: center ;
 }
 .main-info h1 {
-  color: var(--primary-orange);
+  color: var(--success);
   text-transform: uppercase;
 }
 
 .typed-text {
-  color: white;
+  color: var(--success);
   font-size: 2rem;
 }
 
@@ -59,17 +60,27 @@ nav ul li a {
     right: 0;
     left: 0;
     top: 0;
-    border: 0.3rem solid var(--primary-orange);
+    border: 0.3rem solid  var(--success);
     height: 10rem;
-    width: 10rem;
-    border-radius: 5rem;  
+    width: 20rem;
+    border-radius: 0.01rem;  
+    /* opacity: 0.5; */
+}
+.image {
+  position: relative;
+  border: 0rem solid var(--success);
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+  opacity: 0.5;
+  /* border-radius: 5rem;   */
 }
 
 /* ********************About me section *************** */
 
 
 #about {
-  background-color: #f8f9fa;
+  background-color: #030303;
   padding: 100px 0;
 }
 

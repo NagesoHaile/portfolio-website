@@ -1,13 +1,17 @@
 import React from 'react'
 import Typed from 'react-typed';
 import Photo from '../assets/picture.jpg';
-
+import Image from '../assets/image.jpg';
 const Header = () => {
   return (
     <div className='header'>
+      <img src={Image} className="image"/>
         <div className="main-info">
-              <img src={Photo} className="photo"/>
-            <h1>Nageso Haile</h1>
+              <div className="photo">
+               <h1>Nageso Haile</h1>
+              </div>
+              {/* <img src={Photo} className="photo"/> */}
+            
             <Typed 
                 className='typed-text'
                 strings={["Fullstack Developer","Web Developer","Mobile App Developer"]}
@@ -15,7 +19,7 @@ const Header = () => {
                 backSpeed={50}
                 loop
             />
-             <a href='#about' className='btn btn-outline-warning m-5'> Read more</a>
+             <a href='#about' className='btn btn-outline-success m-5'> Read more</a>
         </div>
        
     </div>
